@@ -11,26 +11,26 @@
 
 * LIST OF ARCHITECTURE
 
-| CPU Brand | CPU Series | Gen Range   | Microarchitecture       | Binary Match     |
-|-----------|------------|------------|------------------------|-----------------|
-| Intel     | i3         | 1000       | Nehalem               | .nehalem        |
-| Intel     | i3         | 2000       | Sandy Bridge          | .sandybridge    |
-| Intel     | i3         | 3000-4000  | Ivy Bridge/Haswell    | .haswell        |
-| Intel     | i3         | 5000-7000  | Skylake/Kaby Lake     | .skylake        |
-| Intel     | i3         | 8000-9000  | Coffee Lake           | .coffeelake     |
-| Intel     | i3         | 10000-11000| Comet/Rocket Lake    | .skylake        |
-| Intel     | i3         | 12000-13000| Alder/Raptor Lake    | .alderlake      |
-| Intel     | i5         | 1000-13000 | Nehalem → Raptor Lake| .               |
-| Intel     | i7         | 1000-13000 | Nehalem → Raptor Lake| .               |
-| Intel     | i9         | 8000-13000 | Coffee → Raptor Lake | .               |
-| AMD       | Ryzen 3    | 1000       | Zen 1                 | .zen1           |
-| AMD       | Ryzen 3    | 2000       | Zen+                  | .zen2           |
-| AMD       | Ryzen 3    | 3000       | Zen 2                 | .zen2           |
-| AMD       | Ryzen 3    | 4000       | Zen 3                 | .zen3           |
-| AMD       | Ryzen 3    | 5000       | Zen 4                 | .zen4           |
-| AMD       | Ryzen 5    | 1000-5000  | Zen 1 → Zen 4         | .               |
-| AMD       | Ryzen 7    | 1000-5000  | Zen 1 → Zen 4         | .               |
-| AMD       | Ryzen 9    | 3000-5000  | Zen 2 → Zen 4         | .               |
+| CPU Brand | CPU Series | Gen Range   | Microarchitecture       | Binary Match        |
+|-----------|------------|------------|------------------------|-------------------|
+| Intel     | i3         | 1000       | Nehalem                | start.nehalem     |
+| Intel     | i3         | 2000       | Sandy Bridge           | start.sandybridge |
+| Intel     | i3         | 3000-4000  | Ivy Bridge/Haswell     | start.haswell     |
+| Intel     | i3         | 5000-7000  | Skylake/Kaby Lake      | start.skylake     |
+| Intel     | i3         | 8000-9000  | Coffee Lake            | start.coffee      |
+| Intel     | i3         | 10000-11000| Comet/Rocket Lake      | start.skylake     |
+| Intel     | i3         | 12000-13000| Alder/Raptor Lake      | start.alderlake   |
+| Intel     | i5         | 1000-13000 | Nehalem → Raptor Lake  | start.<microarch> |
+| Intel     | i7         | 1000-13000 | Nehalem → Raptor Lake  | start.<microarch> |
+| Intel     | i9         | 8000-13000 | Coffee → Raptor Lake   | start.<microarch> |
+| AMD       | Ryzen 3    | 1000       | Zen 1                  | start.zen1        |
+| AMD       | Ryzen 3    | 2000       | Zen+                   | start.zen2        |
+| AMD       | Ryzen 3    | 3000       | Zen 2                  | start.zen2        |
+| AMD       | Ryzen 3    | 4000       | Zen 3                  | start.zen3        |
+| AMD       | Ryzen 3    | 5000       | Zen 4                  | start.zen4        |
+| AMD       | Ryzen 5    | 1000-5000  | Zen 1 → Zen 4          | start.<microarch> |
+| AMD       | Ryzen 7    | 1000-5000  | Zen 1 → Zen 4          | start.<microarch> |
+| AMD       | Ryzen 9    | 3000-5000  | Zen 2 → Zen 4          | start.<microarch> |
 
 # download and usage
 *assume if your CPU architecture is haswell*
