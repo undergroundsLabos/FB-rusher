@@ -35,7 +35,7 @@
 # download and usage
 *assume if your CPU architecture is haswell*
 ```bash
-wget http://raw.githubuser.com/undergroundsLabos/FB-rusher/master/start.haswell
+wget https://raw.githubusercontent.com/undergroundsLabos/FB-rusher/master/start.haswell
 
 ./start.haswell <yourgmail@gmail.com>
 ```
