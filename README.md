@@ -20,17 +20,17 @@
 | Intel     | i3         | 8000-9000  | Coffee Lake            | start.coffee      |
 | Intel     | i3         | 10000-11000| Comet/Rocket Lake      | start.skylake     |
 | Intel     | i3         | 12000-13000| Alder/Raptor Lake      | start.alderlake   |
-| Intel     | i5         | 1000-13000 | Nehalem → Raptor Lake  | start.<microarch> |
-| Intel     | i7         | 1000-13000 | Nehalem → Raptor Lake  | start.<microarch> |
-| Intel     | i9         | 8000-13000 | Coffee → Raptor Lake   | start.<microarch> |
+| Intel     | i5         | 1000-13000 | Nehalem → Raptor Lake  | .nehalem/ratpor   |
+| Intel     | i7         | 1000-13000 | Nehalem → Raptor Lake  | .nehalem/raptor   |
+| Intel     | i9         | 8000-13000 | Coffee → Raptor Lake   | start.raptorlake  |
 | AMD       | Ryzen 3    | 1000       | Zen 1                  | start.zen1        |
 | AMD       | Ryzen 3    | 2000       | Zen+                   | start.zen2        |
 | AMD       | Ryzen 3    | 3000       | Zen 2                  | start.zen2        |
 | AMD       | Ryzen 3    | 4000       | Zen 3                  | start.zen3        |
 | AMD       | Ryzen 3    | 5000       | Zen 4                  | start.zen4        |
-| AMD       | Ryzen 5    | 1000-5000  | Zen 1 → Zen 4          | start.<microarch> |
-| AMD       | Ryzen 7    | 1000-5000  | Zen 1 → Zen 4          | start.<microarch> |
-| AMD       | Ryzen 9    | 3000-5000  | Zen 2 → Zen 4          | start.<microarch> |
+| AMD       | Ryzen 5    | 1000-5000  | Zen 1 → Zen 4          | .zen1/zen2/zen3/zen4|
+| AMD       | Ryzen 7    | 1000-5000  | Zen 1 → Zen 4          | .zen1/zen2/zen3/zen4|
+| AMD       | Ryzen 9    | 3000-5000  | Zen 2 → Zen 4          | .zen1/zen2/zen3/zen4|
 
 # download and usage
 *assume if your CPU architecture is haswell*
